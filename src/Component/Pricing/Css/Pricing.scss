@@ -1,0 +1,16 @@
+.pricingWrapper {
+    width: 100%;
+    padding: 50px;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        z-index: -1;
+        background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+    }
+}
